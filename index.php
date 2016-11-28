@@ -8,7 +8,7 @@ function sendToDatabase(){
   var name = document.getElementById('sn').value;
   var sid = document.getElementById('sid').value;
   
-  
+  $<?php echo = "Hello World" ?>
   
   $.post( "pageb.php", { studentname: name, sid: sid })
          .done(function( data ) {
